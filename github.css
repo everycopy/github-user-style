@@ -1,0 +1,40 @@
+/*  Custom styles for GitHub.com by James Goode (@everycopy)
+============================================================================ */
+
+/* GitHub & Gist: github.com & gist.github.com
+============================================================================ */
+
+.header {
+  position: fixed;
+  z-index: 90001;
+  width: 100%;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .075);
+}
+
+.header-logged-out {
+  background-color: #fff !important;
+}
+
+.header-logged-out + .site {
+  padding-top: 69px !important;
+}
+
+.header-logged-out + .site-content {
+  padding-top: 52px !important;
+}
+
+.header-logged-in + .site, .header-logged-in + .site-content {
+  padding-top: 41px !important;
+}
+
+/* GitHub Help: help.github.com
+============================================================================ */
+
+#header {
+  position: fixed !important;
+  width: 100%;
+}
+
+#header + #content-wrapper {
+  padding-top: 78px !important;
+}
