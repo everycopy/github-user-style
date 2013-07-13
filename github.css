@@ -16,11 +16,11 @@
 }
 
 .header-logged-out + .site {
-  padding-top: 69px !important;
+  padding-top: 65px !important;
 }
 
 .header-logged-out + .site-content {
-  padding-top: 52px !important;
+  padding-top: 45px !important;
 }
 
 .header-logged-in + .site, .header-logged-in + .site-content {
