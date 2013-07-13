@@ -27,6 +27,31 @@
   padding-top: 41px !important;
 }
 
+#readme, .bubble {
+  padding: 0 !important;
+}
+
+.commit-tease {
+  border-color: #c7d1d5 !important;
+  border-bottom-color: #d8e6ec !important;
+}
+
+.files {
+  border-color: #ddd !important;
+}
+
+#readme .name {
+  border-color: #ddd !important;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+}
+
+#readme .markdown-body {
+  border-color: #ddd !important;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
 /* GitHub: github.com
 ============================================================================ */
 
