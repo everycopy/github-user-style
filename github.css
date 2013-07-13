@@ -4,6 +4,8 @@
 /* GitHub & Gist: github.com & gist.github.com
 ============================================================================ */
 
+/* Make the header sticky */
+
 .header {
   position: fixed;
   z-index: 99;
@@ -26,6 +28,8 @@
 .header-logged-in + .site, .header-logged-in + .site-content {
   padding-top: 41px !important;
 }
+
+/* Remove the extra border around the file list and readme */
 
 #readme, .bubble {
   padding: 0 !important;
@@ -52,6 +56,8 @@
   border-bottom-left-radius: 3px;
 }
 
+/* Lessen the shadows in the repo's nav */
+
 .repo-nav-contents {
   background-image: -webkit-linear-gradient(left, #f9f9f9 0%, #fff 6px) !important;
   background-image: -moz-linear-gradient(left, #f9f9f9 0%, #fff 6px) !important;
@@ -71,12 +77,16 @@
 /* GitHub: github.com
 ============================================================================ */
 
+/* Make the height of the language stats bar much smaller */
+
 .repository-lang-stats-graph, .language-color {
   line-height: 3px !important;
 }
 
 /* GitHub Help: help.github.com
 ============================================================================ */
+
+/* Make the header sticky */
 
 #header {
   position: fixed !important;
