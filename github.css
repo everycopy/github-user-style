@@ -27,6 +27,13 @@
   padding-top: 41px !important;
 }
 
+/* GitHub: github.com
+============================================================================ */
+
+.repository-lang-stats-graph, .language-color {
+  line-height: 3px !important;
+}
+
 /* GitHub Help: help.github.com
 ============================================================================ */
 
