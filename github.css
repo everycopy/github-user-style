@@ -59,15 +59,47 @@
 /* Lessen the shadows in the repo's nav */
 
 .repo-nav-contents {
-  background-image: -webkit-linear-gradient(left, #f9f9f9 0%, #fff 6px) !important;
-  background-image: -moz-linear-gradient(left, #f9f9f9 0%, #fff 6px) !important;
-  background-image: linear-gradient(to right, #f9f9f9 0%, #fff 6px) !important;
+  background-image:
+    -webkit-linear-gradient(
+      left,
+      #f9f9f9 0%,
+      #fff 6px
+    ) !important;
+  background-image:
+    -moz-linear-gradient(
+      left,
+      #f9f9f9 0%,
+      #fff 6px
+    ) !important;
+  background-image:
+    linear-gradient(
+      to right,
+      #f9f9f9 0%,
+      #fff 6px
+    ) !important;
 }
 
 .repo-menu-separator {
-  background-image: -webkit-radial-gradient(left top, farthest-side, #f9f9f9, rgba(244, 244, 244, 0));
-  background-image: -moz-radial-gradient(left top, farthest-side, #f9f9f9, rgba(244, 244, 244, 0));
-  background-image: radial-gradient(farthest-side at left top, #f9f9f9, rgba(244, 244, 244, 0));
+  background-image:
+    -webkit-radial-gradient(
+      left top,
+      farthest-side,
+      #f9f9f9,
+      rgba(244, 244, 244, 0)
+    );
+  background-image:
+    -moz-radial-gradient(
+      left top,
+      farthest-side,
+      #f9f9f9,
+      rgba(244, 244, 244, 0)
+    );
+  background-image:
+    radial-gradient(
+      farthest-side at left top,
+      #f9f9f9,
+      rgba(244, 244, 244, 0)
+    );
 }
 
 .repo-menu a.selected {
