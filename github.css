@@ -1,7 +1,7 @@
 /*  Custom styles for GitHub.com by James Goode (@everycopy)
 ============================================================================ */
 
-/* GitHub & Gist: github.com & gist.github.com
+/* GitHub & Gists: github.com & gist.github.com
 ============================================================================ */
 
 /* Make the header sticky */
@@ -112,6 +112,15 @@
 
 .repository-lang-stats-graph, .language-color {
   line-height: 3px !important;
+}
+
+/* Gists: gist.github.com
+============================================================================ */
+
+/* Round the corners of the file contents */
+
+.bubble .file {
+  border-radius: 3px;
 }
 
 /* GitHub Help: help.github.com
