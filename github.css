@@ -6,7 +6,7 @@
 
 /* Make the header sticky */
 
-.header {
+.header-logged-in, .header-logged-out {
   position: fixed;
   z-index: 99;
   width: 100%;
