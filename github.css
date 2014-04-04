@@ -4,30 +4,6 @@
 /* GitHub & Gists: github.com & gist.github.com
 ============================================================================ */
 
-/* Make the header sticky */
-
-.header-logged-in, .header-logged-out {
-  position: fixed;
-  z-index: 99;
-  width: 100%;
-}
-
-.header-logged-out {
-  background-color: #fff !important;
-}
-
-.header-logged-out + .site {
-  padding-top: 68px !important;
-}
-
-.header-logged-out + .site-content {
-  padding-top: 45px !important;
-}
-
-.header-logged-in + .site, .header-logged-in + .site-content {
-  padding-top: 41px !important;
-}
-
 /* Remove the extra border around the file list and readme */
 
 #readme, .bubble {
@@ -121,18 +97,4 @@
 
 .bubble .file {
   border-radius: 3px;
-}
-
-/* GitHub Help: help.github.com
-============================================================================ */
-
-/* Make the header sticky */
-
-#header {
-  position: fixed !important;
-  width: 100%;
-}
-
-#header + #content-wrapper {
-  padding-top: 78px !important;
 }
