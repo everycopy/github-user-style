@@ -1,1 +1,1 @@
-I little thing for making the GitHub header sticky.
+I little thing for tweaking GitHub.
