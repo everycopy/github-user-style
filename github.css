@@ -87,7 +87,12 @@
 /* Make the height of the language stats bar much smaller */
 
 .repository-lang-stats-graph, .language-color {
+  transition: all .125s ease-in-out;
   line-height: 3px !important;
+}
+
+.repository-lang-stats-graph:hover, .repository-lang-stats-graph:hover .language-color {
+  line-height: 12px !important;
 }
 
 /* Gists: gist.github.com
