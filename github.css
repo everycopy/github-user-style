@@ -1,86 +1,6 @@
 /*  Custom styles for GitHub.com by James Goode (@everycopy)
 ============================================================================ */
 
-/* GitHub & Gists: github.com & gist.github.com
-============================================================================ */
-
-/* Remove the extra border around the file list and readme */
-
-#readme, .bubble {
-  padding: 0 !important;
-}
-
-.commit-tease {
-  border-color: #c7d1d5 !important;
-  border-bottom-color: #d8e6ec !important;
-}
-
-.files {
-  border-color: #ddd !important;
-}
-
-#readme .name {
-  border-color: #ddd !important;
-  border-top-right-radius: 3px;
-  border-top-left-radius: 3px;
-}
-
-#readme .markdown-body {
-  border-color: #ddd !important;
-  border-bottom-right-radius: 3px;
-  border-bottom-left-radius: 3px;
-}
-
-/* Lessen the shadows in the repo's nav */
-
-.repo-nav-contents {
-  background-image:
-    -webkit-linear-gradient(
-      left,
-      #f9f9f9 0%,
-      #fff 6px
-    ) !important;
-  background-image:
-    -moz-linear-gradient(
-      left,
-      #f9f9f9 0%,
-      #fff 6px
-    ) !important;
-  background-image:
-    linear-gradient(
-      to right,
-      #f9f9f9 0%,
-      #fff 6px
-    ) !important;
-}
-
-.repo-menu-separator {
-  background-image:
-    -webkit-radial-gradient(
-      left top,
-      farthest-side,
-      #f9f9f9,
-      rgba(244, 244, 244, 0)
-    );
-  background-image:
-    -moz-radial-gradient(
-      left top,
-      farthest-side,
-      #f9f9f9,
-      rgba(244, 244, 244, 0)
-    );
-  background-image:
-    radial-gradient(
-      farthest-side at left top,
-      #f9f9f9,
-      rgba(244, 244, 244, 0)
-    );
-}
-
-.repo-menu a.selected {
-  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.025) !important;
-}
-
 /* GitHub: github.com
 ============================================================================ */
 
@@ -93,13 +13,4 @@
 
 .repository-lang-stats-graph:hover, .repository-lang-stats-graph:hover .language-color {
   line-height: 12px !important;
-}
-
-/* Gists: gist.github.com
-============================================================================ */
-
-/* Round the corners of the file contents */
-
-.bubble .file {
-  border-radius: 3px;
 }
