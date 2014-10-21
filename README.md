@@ -1,1 +1,1 @@
-I little thing for tweaking GitHub.
+Pretty much just shrink the language stats bar.
